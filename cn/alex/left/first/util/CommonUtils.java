@@ -62,4 +62,17 @@ public class CommonUtils {
         }
         return true;
     }
+
+    /**
+     * 交换数组 i 和 j 位置的元素
+     *
+     * @param array array
+     * @param i     i
+     * @param j     j
+     */
+    public static void swap(int[] array, int i, int j) {
+        int tmp = array[i];
+        array[i] = array[j];
+        array[j] = tmp;
+    }
 }
