@@ -1,8 +1,6 @@
 package alex.left.first;
 
-import alex.left.first.course01.BubbleSort;
-import alex.left.first.course01.InsertSort;
-import alex.left.first.course01.SelectSort;
+import alex.left.first.course01.Code03InsertSort;
 import alex.left.first.util.CommonUtils;
 
 import java.util.Arrays;
@@ -23,7 +21,7 @@ public class Main {
     public static void singleTest() {
         int[] array = {-83, -25, -23, -20, 4, 43, 87};
         System.out.println(Arrays.toString(array));
-        InsertSort.insertSort(array);
+        Code03InsertSort.insertSort(array);
         System.out.println(Arrays.toString(array));
     }
 
@@ -40,7 +38,7 @@ public class Main {
             int[] array1 = CommonUtils.copyArray(array);
 //            SelectSort.selectSort(array1);
 //            BubbleSort.bubbleSort(array1);
-            InsertSort.insertSort(array1);
+            Code03InsertSort.insertSort(array1);
             int[] array2 = CommonUtils.copyArray(array);
             CommonUtils.comparator(array2);
             if (!CommonUtils.isEqual(array1, array2)) {

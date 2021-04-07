@@ -9,7 +9,7 @@ import alex.left.first.util.CommonUtils;
  * @version 1.0
  * @date 2021/4/2 11:11 上午
  */
-public class InsertSort {
+public class Code03InsertSort {
 
     /**
      * 插入排序

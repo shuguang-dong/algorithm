@@ -11,7 +11,7 @@ import java.util.Arrays;
  * @version 1.0
  * @date 2021/4/2 10:28 上午
  */
-public class SelectSort {
+public class Code01SelectSort {
 
     /**
      * 选择排序

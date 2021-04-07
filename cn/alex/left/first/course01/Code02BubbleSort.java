@@ -9,7 +9,7 @@ import alex.left.first.util.CommonUtils;
  * @version 1.0
  * @date 2021/4/2 11:03 上午
  */
-public class BubbleSort {
+public class Code02BubbleSort {
     /**
      * 冒泡排序
      * 依次遍历，当前数如果大于它后面的数，则交换

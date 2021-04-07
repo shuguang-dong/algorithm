@@ -75,4 +75,8 @@ public class CommonUtils {
         array[i] = array[j];
         array[j] = tmp;
     }
+
+    public static int generateRandomNumber(int maxValue) {
+        return (int) (Math.random() * (maxValue + 1)) - (int) (Math.random() * maxValue);
+    }
 }
